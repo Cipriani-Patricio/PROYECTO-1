@@ -1,0 +1,478 @@
+
+@import "letrasycolores";
+
+
+// MOVILE
+
+body {
+    // border: 1px solid blue;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+// menu y encabezado
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    
+    img {
+            
+            width: 24px;
+            height: 24px;
+            margin-left: 16px;
+            margin-top: 10px;
+        }
+
+
+    .menu{     
+            
+            margin: 0px;
+            padding: 0px;
+            height: auto;
+            width: 120px;
+            box-sizing: border-box;
+            
+
+    
+         
+         #btn-menu {
+             display: none;
+            }
+
+
+    label {  display: block;
+             float: right;
+             width: 24px;
+             padding: 0px;
+             margin: 13px 19px 13px 0px;
+             
+             
+
+        span {    
+                display: block;
+                width: 18px;
+                height: 2px;
+                margin: 3px;
+                background: #000;
+                }
+        }
+    label:hover {
+            cursor: pointer;
+            background: rgba(0,0,0,0.3);
+             }
+
+                 
+
+        
+        
+            ul { 
+                
+                list-style: none;
+                display: none;
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+             
+            li{
+                    text-decoration:none;
+                    text-align: end;
+                    border-bottom: 1px solid black;
+                   
+                a {
+                    font-size: 16px;
+                    text-decoration:none;
+                    font-family: $tipo-letras1 ;
+                    color: $color-letras1;
+                }    
+                 
+               
+        }
+        li:hover {
+            background: rgba(0,0,0,0.3);
+            cursor: pointer;
+        }
+
+        }
+
+
+        }
+
+
+
+    }   
+
+#btn-menu:checked ~ ul{
+    display:block;
+  }
+// FIN menu y encabezado
+
+// TITULO E INICIO DEL PODCAST
+
+.inicio {
+    margin: 0px;
+    padding: 0px;
+    width:100% ;
+    height: auto;
+    margin: 16px;
+
+    .hello {
+        margin: 29px 0px 16px 0px;
+        font-size: 36px;
+        color: $color-letras1;
+        font-family: $tipo-letras2;
+
+        span{
+            text-decoration: line-through;
+        }
+    }
+    .hello2 {
+        display: none;
+    
+    }
+    p{
+        margin: 0px;
+        width: 288px;
+        height: 66px;
+        font-family: $tipo-letras1;
+        font-size: 14px;
+        color: $color-letras1;
+    }
+    .p2 {
+        display: none;
+    }
+    a { 
+        text-decoration: none;
+    .boton{
+        margin: 36px 0px 24px 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 288px;
+        height: 48px;              
+        background:#00F3BB ;
+           
+         div{
+            font-size: 16px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-family: 'IBM Plex Sans', sans-serif;
+            color: $color-letras1;
+        }
+        }
+        }
+        .boton:hover{
+            background: linear-gradient(to right,#00F0B8,#0000FE);
+             div {color: #FFFFFF;}
+        }       
+}
+
+// FIN DE INICIO 
+
+// EPISODIOS
+.episodios{ 
+    // border: 1px solid blue;
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    background: #0000FF;
+    display: flex;
+    flex-direction: column;
+    height: 1203.5px;
+
+     .titulo{
+        
+        margin: 64px 147px 0px 16px;
+        font-family: $tipo-letras2;
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+
+
+.audios{
+    
+    margin: 21px 11px 0px 11px;
+    padding: 0px;
+    width: 93.12%;
+    height: 1076.5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    
+    .podcasts{ 
+                margin: 0px 0px 11px 0px;
+                
+                height: 225px;
+
+    
+    iframe {
+      
+         
+    }
+        }   
+
+
+}
+}
+
+// fin de audios
+
+
+
+.celular-dedondevenimos { 
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -95.5px;
+
+}
+
+
+// foto mujer en celular
+
+.mujer {
+   
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 519px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+
+    img {display: flex;
+        align-self: center;
+        width: 360px;
+        height: 519px;
+    }
+}
+
+// FIN FOTO MUJER
+
+// INICIO "DE DONDE VENIMOS"
+
+.dedondevenimos {
+    // border: 1px solid black;
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    width: 93.125%;
+    height: 346px; 
+ 
+   .titulo {
+        margin: 0px;
+        padding: 0px;
+        color: $color-letras1;
+        font-family: $tipo-letras2;
+        font-size: 36px;
+        
+    }
+    .titulo2 {
+        display: none;
+    }
+
+    p {
+        color: $color-letras1;
+        font-family: $tipo-letras1;
+        font-size: 14px;
+        
+    }
+
+}
+// fin de donde venimos
+
+
+
+
+
+
+// inicio de galeria de fotos
+
+.galeria {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+
+    .titulo{
+        margin: 0px 0px 14px 0px;
+        padding: 0px;
+        color: $color-letras1;
+        font-family: $tipo-letras2;
+        font-size: 36px;
+        margin-left: 3.43%;
+        
+    }
+
+    .fotos {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 1458px;
+
+        .imagen {
+                width: 100%;
+                height: 243px;
+                margin: 0px;
+                padding: 0px;
+         
+                img {
+                    margin:0px;
+                    padding: 0px;
+                    width: 100%;
+                    height: 100%;
+                }
+
+        }
+
+    }
+
+}
+//fin de galeria de fotos
+
+// inicio de "temas"
+.titulo-temas { 
+                width: 288px;
+                height: 84px;
+                margin: 48px 11px 37px 11px;
+                padding: 0px;
+                font-family: $tipo-letras2;
+                font-size: 36px;
+                color: $color-letras1;
+}
+
+.contenedor-temas {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+.tema{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 65px 0px;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+img {
+    width: 104px;
+    height: 104px;
+}
+label {
+    margin-top: 13px;
+    font-family: $tipo-letras3;
+    color: $color-letras1;
+    font-size: 24px;
+    
+}
+}
+
+
+}
+
+
+// FIN DE TEMAS 
+
+// INICIO DE NOVEDADES
+
+.novedades{
+    width: 100%;
+    height: 341px;
+    padding: 0px;
+    margin: 0px;
+    background: #0000FF; 
+    display: flex;
+    flex-direction: column;
+
+    .texto {
+            margin-top:64px;
+            padding: 0px;
+            width: 288px;
+            height: 126px;
+            font-family: $tipo-letras2;
+            font-size: 36px;
+            color: #FFFFFF;
+            text-align: center;
+            align-self: center;
+            
+   
+}
+
+
+    a { 
+        text-decoration: none;
+        align-self: center;
+        margin-top: 37px;
+
+    .boton{
+       
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 288px;
+        height: 48px;              
+        background:#00F3BB ;
+           
+         div{
+            font-size: 16px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-family: 'IBM Plex Sans', sans-serif;
+            color: $color-letras1;
+        }
+        }
+        }
+        .boton:hover{
+            background: linear-gradient(to right,#00F0B8,#0000FE);
+             div {color: #FFFFFF;}
+        }       
+
+
+}
+
+
+// FIN NOVEDADES
+
+// FOOTER
+.footer {
+    width: 100%;
+    height: 121px;
+
+    h6 {
+        font-size: 14px;
+        font-family: $tipo-letras1;
+        color: $color-letras1;
+        text-align: center;
+    }
+    .iconos{
+        width: 100%;
+        height: 28px;
+        border: 1px solid black;
+    }
+}
+// FIN FOOTER
+
+
+
