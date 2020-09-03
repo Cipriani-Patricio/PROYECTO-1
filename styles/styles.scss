@@ -21,23 +21,26 @@ header{
     width: 100%;
     box-sizing: border-box;
     
-    img {
-            
+
+    img {   
+            position: absolute;
             width: 24px;
             height: 24px;
             margin-left: 16px;
             margin-top: 10px;
+             
         }
-
+    
 
     .menu{     
             
             margin: 0px;
             padding: 0px;
             height: auto;
-            width: 120px;
+            width: 100%;
             box-sizing: border-box;
-            
+            position: relative;
+           
 
     
          
@@ -71,25 +74,28 @@ header{
 
         
         
-            ul { 
-                
+            ul {  
+                margin: 44px 0px 0px 0px;
                 list-style: none;
                 display: none;
                 width: 100%;
-                height: 100%;
-                margin: 0px;
-                padding: 0px;
+                height: 224px;
+                background: #0000EC;
+                padding: 12px 0px 0px 0px ;
+                
              
-            li{
+            li{     margin-top: 24px;
                     text-decoration:none;
-                    text-align: end;
-                    border-bottom: 1px solid black;
+                    text-align: start;
+                    
+                    margin-left: 16px;
+                    
                    
                 a {
                     font-size: 16px;
                     text-decoration:none;
                     font-family: $tipo-letras1 ;
-                    color: $color-letras1;
+                    color: #FFFFFF;
                 }    
                  
                
@@ -176,24 +182,49 @@ header{
 // FIN DE INICIO 
 
 // EPISODIOS
+.podcast-audios { 
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 1203.5px;
+    display: flex;
+    align-items: center;
+   
+
+
 .episodios{ 
-    // border: 1px solid blue;
+    
     margin:0px;
     padding: 0px;
     width: 100%;
-    background: #0000FF;
     display: flex;
-    flex-direction: column;
-    height: 1203.5px;
+   align-items: center;
+
+    height: 1160px;
+    
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skewy(-6deg);
+    z-index: -1;
+    
+    .container-titulo-audios {
+        transform: skewy(6deg);
+       height: 996px;
+       margin:0px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+
 
      .titulo{
         
-        margin: 64px 147px 0px 16px;
+        margin: -39.75px 147px 0px 16px;
         font-family: $tipo-letras2;
         font-size: 36px;
         color: #FFFFFF;
     }
-
+   
 
 .audios{
     
@@ -220,6 +251,8 @@ header{
         }   
 
 
+}
+    }
 }
 }
 
@@ -396,18 +429,39 @@ label {
 // FIN DE TEMAS 
 
 // INICIO DE NOVEDADES
+.contenedor-novedades{
+    width: 100%;
+    height: 341px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
 
 .novedades{
     width: 100%;
     height: 341px;
     padding: 0px;
     margin: 0px;
-    background: #0000FF; 
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     display: flex;
-    flex-direction: column;
+    
+   align-items: center;
+   transform: skewy(-6deg);
+   transform-origin: top right;
+
+    .container-texto-boton{
+        width: 100%;
+        height: 341px;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        transform: skewy(6deg);
+   
+
 
     .texto {
-            margin-top:64px;
+            margin-top: 50px;
             padding: 0px;
             width: 288px;
             height: 126px;
@@ -449,14 +503,14 @@ label {
              div {color: #FFFFFF;}
         }       
 
-
+    }
 }
-
+}
 
 // FIN NOVEDADES
 
 // FOOTER
-.footer {
+.pie {
     width: 100%;
     height: 121px;
 
@@ -467,9 +521,18 @@ label {
         text-align: center;
     }
     .iconos{
+        display: flex;
+        justify-content: center;
         width: 100%;
-        height: 28px;
-        border: 1px solid black;
+        height: auto;
+        
+        
+        i{
+            width: auto;
+            height: auto;
+             margin: 0px  5.9375% 0px 5.9375%;
+
+        }
     }
 }
 // FIN FOOTER
