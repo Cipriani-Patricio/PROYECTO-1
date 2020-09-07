@@ -235,7 +235,7 @@
   .galeria {
     margin-top: 64px;
     width: 100%;
-    height: none;
+    height: auto;
   }
   .galeria .titulo {
     margin: 0px 0px 14px 14%;
@@ -247,10 +247,10 @@
   .galeria .fotos {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     row-gap: 0px;
     -webkit-column-gap: 0px;
             column-gap: 0px;
@@ -322,7 +322,7 @@
     width: 104px;
     height: 104px;
   }
-  .contenedor-temas .tema label {
+  .contenedor-temas .tema .etiqueta {
     margin-top: 13px;
     font-family: "IBM Plex Sans", sans-serif;
     color: #060A24;

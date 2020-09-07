@@ -149,6 +149,8 @@ header{
         font-family: $tipo-letras1;
         font-size: 14px;
         color: $color-letras1;
+        letter-spacing: 0;
+        line-height: 24px;
     }
     .p2 {
         display: none;
@@ -297,7 +299,7 @@ header{
 // INICIO "DE DONDE VENIMOS"
 
 .dedondevenimos {
-    // border: 1px solid black;
+    
     position: relative;
     margin: auto;
     padding: 0px;
@@ -310,6 +312,7 @@ header{
         color: $color-letras1;
         font-family: $tipo-letras2;
         font-size: 36px;
+        letter-spacing: 0;
         
     }
     .titulo2 {
@@ -320,6 +323,8 @@ header{
         color: $color-letras1;
         font-family: $tipo-letras1;
         font-size: 14px;
+        letter-spacing: 0;
+        line-height: 24px;
         
     }
 
@@ -413,7 +418,7 @@ img {
     width: 104px;
     height: 104px;
 }
-label {
+.etiqueta {
     margin-top: 13px;
     font-family: $tipo-letras3;
     color: $color-letras1;

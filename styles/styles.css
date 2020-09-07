@@ -126,6 +126,8 @@ header .menu ul li:hover {
   font-family: "IBM Plex Mono", monospace;
   font-size: 14px;
   color: #060A24;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
 .inicio .p2 {
@@ -297,6 +299,7 @@ header .menu ul li:hover {
   color: #060A24;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
+  letter-spacing: 0;
 }
 
 .dedondevenimos .titulo2 {
@@ -307,6 +310,8 @@ header .menu ul li:hover {
   color: #060A24;
   font-family: "IBM Plex Mono", monospace;
   font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
 .galeria {
@@ -410,7 +415,7 @@ header .menu ul li:hover {
   height: 104px;
 }
 
-.contenedor-temas .tema label {
+.contenedor-temas .tema .etiqueta {
   margin-top: 13px;
   font-family: "IBM Plex Sans", sans-serif;
   color: #060A24;

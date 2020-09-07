@@ -42,10 +42,10 @@
         <input type="checkbox" id="btn-menu"/>
      
             <ul >
-                <li><a href="">EPISODIOS</a></li>
-                <li><a href="">NOSOTROS</a></li>
-                <li><a href="">ENTREVISTAS</a></li>
-                <li><a href="">TÓPICOS</a></li>
+                <li><a href="#audios">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                <li><a href="#temas">TÓPICOS</a></li>
             </ul>
            
     </nav> 
@@ -58,14 +58,14 @@
     <div class="hello">Hello <span>word</span> <br> pale blue dot.</div> 
     <div class="hello2">Hello <span>word</span>  pale blue dot.</div>
     <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
-    <p class="p2">Un podcast que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+    <p class="p2">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
     <a href=""><div class="boton"><div>CONOCÉ MÁS</div></div></a>
 </div>
 </article>
 
 
 <!-- audios -->
-<article class="podcast-audios">
+<article id="audios" class="podcast-audios">
 
 
 <div class="episodios">
@@ -102,7 +102,7 @@
 <!-- fin audios -->
 
 <!-- foto de mujer en telefono -->
-<article class="celular">
+<article id="nosotros" class="dedonde-venimos">
 
 <div class="celular-dedondevenimos">
 
@@ -114,12 +114,12 @@
 </div>
 
 
-</article>
+
 <!-- fin foto de mujer en telefono -->
 
 <!-- texto: de donde venimos -->
 
-<article class="dedonde-venimos">
+
     
 <div class="dedondevenimos">
 <div class="titulo">De donde  <br>   venimos</div> 
@@ -150,14 +150,14 @@
 
 
 <div class="galeria">
-   <div class="titulo">Invitadas/os estelares </div> 
+   <div id="entrevistas" class="titulo">Invitadas/os estelares </div> 
 
     <div class="fotos">
          <div class="imagen"><img src="images/grace-hopper.png" alt="lagrace"></div> 
         <div class="imagen"><img src="images/Katie-Bouman.png" alt="katie"></div>
         <div class="imagen"><img src="images/Margaret_Hamilton.png" alt="margaret"></div>
-        <div class="imagen"><img src="images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="1950"></div>
-        <div class="imagen"><img src="images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="operadoras"></div>
+        <div class="imagen"><img src="images/1950.png" alt="1950"></div>
+        <div class="imagen"><img src="images/Computer-operators.png" alt="operadoras"></div>
         <div class="imagen"><img src="images/susan-kare.png" alt="susan"></div>   
 
        
@@ -171,7 +171,7 @@
 
 <!-- temas -->
 
-<article class="temas">
+<article id="temas" class="temas">
 
 
 <h1 class="titulo-temas">Alguno de nuestros temas</h1>
@@ -181,22 +181,25 @@
     <div class="tema">
         
         <img id="icono1" src="images/icon1.svg" alt="icono1">
-        <label for="icono1">Trabajo remoto</label>
+        <div class="etiqueta">Trabajo remoto</div>
+
     </div>
    
     <div class="tema">
         <img id="icono2" src="images/icon2.svg" alt="icono2">
-        <label for="icono2">Repensando la <br>programación</label>
+        <div class="etiqueta"> Repensando la <br>programación</div>
+
     </div>
 
     <div class="tema">
         <img id="icono3" src="images/icon3.svg" alt="icono3">
-        <label for="icono3">Bases del código</label>
+        <div class="etiqueta"> Bases del código</div>
+
     </div>
 
     <div class="tema">
-        <img id="icono4"src="images/icon4.svg" alt="icono4">
-        <label for="icono4">Seguridad informática</label>
+        <img src="images/icon4.svg" alt="icono4">
+        <div class="etiqueta"> Seguridad informática</div>
     </div>
 
 
