@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   header {
     height: 80px;
   }
@@ -64,7 +64,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 900px) {
   .inicio {
     margin: 120px 0px 5px 14%;
   }
@@ -120,7 +120,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .podcast-audios {
     margin: 0px;
     padding: 0px;
@@ -144,7 +144,6 @@
             align-items: center;
     -webkit-transform: skewy(-6deg);
             transform: skewy(-6deg);
-    z-index: -1;
   }
   .podcast-audios .episodios .container-titulo-audios {
     -webkit-transform: skewy(6deg);
@@ -185,7 +184,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 900px) {
   .celular-dedondevenimos {
     z-index: 1;
     width: 68.33%;
@@ -231,7 +230,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .galeria {
     margin-top: 64px;
     width: 100%;
@@ -273,7 +272,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .titulo-temas {
     width: auto;
     height: auto;
@@ -331,7 +330,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .contenedor-novedades {
     width: 100%;
     height: 518px;
@@ -423,7 +422,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .pie {
     width: 100%;
     height: 95px;
