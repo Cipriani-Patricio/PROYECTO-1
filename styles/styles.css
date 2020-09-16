@@ -103,7 +103,7 @@ header .menu ul li:hover {
 .inicio {
   margin: 0px;
   padding: 0px;
-  width: 100%;
+  width: auto;
   height: auto;
   margin: 16px;
 }
@@ -113,6 +113,7 @@ header .menu ul li:hover {
   font-size: 36px;
   color: #060A24;
   font-family: "IBM Plex Sans", sans-serif;
+  width: 100%;
 }
 
 .inicio .hello span {

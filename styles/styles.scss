@@ -126,7 +126,7 @@ header{
 .inicio {
     margin: 0px;
     padding: 0px;
-    width:100% ;
+    width:auto;
     height: auto;
     margin: 16px;
 
@@ -135,6 +135,7 @@ header{
         font-size: 36px;
         color: $color-letras1;
         font-family: $tipo-letras2;
+        width: 100%;
 
         span{
             text-decoration: line-through;
