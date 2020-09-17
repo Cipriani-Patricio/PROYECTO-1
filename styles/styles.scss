@@ -49,9 +49,8 @@ header{
          #btn-menu {
              display: none;
             }
-
-
-    label {  display: block;
+     
+    .tres-rayas {  display: block;
              float: right;
              width: 24px;
              padding: 0px;
@@ -66,15 +65,39 @@ header{
                 margin: 3px;
                 background: #000;
                 }
-        }
-    label:hover {
-            cursor: pointer;
-            background: rgba(0,0,0,0.3);
-             }
 
-                 
-
+     
         
+        }
+   
+       .x {
+        display: none;
+                
+        float: right;
+        width: 18px;
+        height: 18px;
+        padding: 0px;
+        margin: 13px 19px 13px 91%;
+
+             img {
+                margin:0px;
+                padding: 0px;
+                width: 18px;
+                height: 18px;
+             
+    
+            }
+                 
+        }
+
+        label:hover {
+            cursor: pointer;
+            
+             }
+             .x:hover {
+                cursor: pointer;
+                
+             }
         
             ul {  
                 margin: 44px 0px 0px 0px;
@@ -119,6 +142,15 @@ header{
 #btn-menu:checked ~ ul{
     display:block;
   }
+
+
+  #btn-menu:checked ~ .tres-rayas{
+    display: none;
+      }
+
+      #btn-menu:checked ~ .x{
+        display: block;
+          }
 // FIN menu y encabezado
 
 // TITULO E INICIO DEL PODCAST
@@ -539,11 +571,11 @@ img {
         height: auto;
         
         
-        i{
+        a{
             width: auto;
             height: auto;
              margin: 0px  5.9375% 0px 5.9375%;
-
+            color: black;
         }
     }
 }
