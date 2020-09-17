@@ -19,7 +19,10 @@
     width: auto;
     height: 100%;
   }
-  header .menu label {
+  header .menu .tres-rayas {
+    display: none;
+  }
+  header .menu .x {
     display: none;
   }
   header .menu ul {
